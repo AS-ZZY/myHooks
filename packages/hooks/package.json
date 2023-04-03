@@ -1,0 +1,26 @@
+{
+  "name": "@as-zzy/hooks",
+  "version": "0.0.2",
+  "description": "",
+  "scripts": {
+    "build": "vue-tsc --noEmit && vite build"
+  },
+  "keywords": [],
+  "main": "dist/es/hooks.mjs",
+  "types": "dist/es/index.d.ts",
+  "author": "as-zzy",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "vite-plugin-dts": "^2.1.0",
+    "vue": "^3.2.47"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
