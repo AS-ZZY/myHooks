@@ -6,6 +6,7 @@
     "build": "vue-tsc --noEmit && vite build"
   },
   "keywords": [],
+  "type": "module",
   "main": "dist/es/hooks.mjs",
   "types": "dist/es/index.d.ts",
   "author": "as-zzy",
