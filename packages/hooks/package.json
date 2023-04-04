@@ -15,8 +15,13 @@
   ],
   "license": "ISC",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
     "@vitejs/plugin-vue": "^4.1.0",
     "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "eslint": "^8.37.0",
+    "eslint-plugin-vue": "^9.10.0",
+    "vite": "^4.2.0",
     "vite-plugin-dts": "^2.1.0",
     "vue": "^3.2.47"
   },
